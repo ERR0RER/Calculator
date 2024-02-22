@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="FONTS/lucidagrande.woff2">
+	<link rel="stylesheet" href="FONTS/lucidagrande_bold.woff2">
+	<link rel="stylesheet" href="CSS/main.css">
+	<link rel="icon" href="ICON-PREV/icons8-калькулятор-50.png" type="image/x-icon">
+</head>
+
+<body>
+	<div class="cont">
+		<div class="container">
+			<div class="calculator">
+				<div class="okno">
+					<input id="window-input" class="text-okno" disabled maxlength="8">
+					<div class="str1">
+						<button class="btn1" onclick="Clear(this)">
+							<div class="btn-text">C</div>
+						</button>
+						<button class="btn2">
+							<div class="btn-text" onclick="GoToDisplay('Сори я хз че это')">+/-</div>
+						</button>
+						<button class="btn3">
+							<div class="btn-text" onclick="GoToDisplay('%')">%</div>
+						</button>
+						<button class="btn4">
+							<div class="btn-text1" onclick="GoToDisplay('/')">÷</div>
+						</button>
+					</div>
+					<div class="str2">
+						<button class="btn5" onclick="GoToDisplay('7')">
+							<div class="btn-text">7</div>
+						</button>
+						<button class="btn6" onclick="GoToDisplay('8')">
+							<div class="btn-text">8</div>
+						</button>
+						<button class="btn7" onclick="GoToDisplay('9')">
+							<div class="btn-text">9</div>
+						</button>
+						<button class="btn8" onclick="GoToDisplay('*')">
+							<div class="btn-text1">×</div>
+						</button>
+					</div>
+					<div class="str3">
+						<button class="btn9" onclick="GoToDisplay('4')">
+							<div class="btn-text">4</div>
+						</button>
+						<button class="btn10" onclick="GoToDisplay('5')">
+							<div class="btn-text">5</div>
+						</button>
+						<button class="btn11" onclick="GoToDisplay('6')">
+							<div class="btn-text">6</div>
+						</button>
+						<button class="btn12" onclick="GoToDisplay('-')">
+							<div class="btn-text1">-</div>
+						</button>
+					</div>
+					<div class="str4">
+						<button class="btn13" onclick="GoToDisplay('1')">
+							<div class="btn-text">1</div>
+						</button>
+						<button class="btn14" onclick="GoToDisplay('2')">
+							<div class="btn-text">2</div>
+						</button>
+						<button class="btn15" onclick="GoToDisplay('3')">
+							<div class="btn-text">3</div>
+						</button>
+						<button class="btn16" onclick="GoToDisplay('+')">
+							<div class="btn-text1">+</div>
+						</button>
+					</div>
+					<div class="str5">
+						<button class="btn17" onclick="GoToDisplay('0')">
+							<div class="btn-text2">0</div>
+						</button>
+						<button class="btn18" onclick="GoToDisplay('.')">
+							<div class="btn-text">.</div>
+						</button>
+						<button class="btn19" onclick="Calculator(this)">
+							<div class="btn-text1">=</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+
+	
+	<script src="JS/main.js"></script>
+</body>
+
+</html>
