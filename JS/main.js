@@ -15,3 +15,6 @@ var display = document.getElementById('window-input');
 				document.getElementById('window-input').value = 'ERROR'
 			}
 		}
+		function procent(value) {
+				document.getElementById('window-input').value /= 100;
+		}
